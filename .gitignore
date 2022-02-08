@@ -1,0 +1,34 @@
+# VSCode
+*.code-workspace
+**/.vscode
+
+# venv
+**/Scripts
+**/Lib
+pyvenv.cfg
+
+.temp/**
+
+# dist
+**/dist
+
+# Sphinx
+**/_build
+**/_templates
+
+**/__pycache__
+
+**/venv
+# secrets
+creds.py
+
+**/.tests
+
+# ignore random snippets
+test.py
+src/example_2.py
+add.py
+addLOC.py
+src/MISC/snippets/scrsht1.py
+.dmypy.json
+src/used_from.py
